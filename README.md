@@ -24,8 +24,8 @@
 
 6. Click open in the left corner to browse throug files and open "rollback.sql" to open it.
 	
-7. Select and run code to rollback all the changes made to the tables in step 5 (migration).
-	7.1 First section will rename column "student_id" back to "st_id" in students table.  
+7. Select and run code to rollback all the changes made to the tables in step 5 (migration).   
+	7.1 First section will rename column "student_id" back to "st_id" in students table.    
 	7.2 Second section will change length of columns "st_name" & "st_last" back to 15 in students table   
 	7.3 Third section will create a new table where previoysle combined/aggregated columns is splited with unnest function and named as "interest" as in original table.   
 	7.4 Highlight all codes and press run to execute. Bottom part of the screen will show a message about successfull execution of the query.  
